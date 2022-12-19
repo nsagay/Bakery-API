@@ -10,7 +10,8 @@ from sqlmodel import select, SQLModel, Field
 app = FastAPI()
 
 CONNECTION_STRING = ('Driver={SQL Server};'
-                     'Server=LONNB22396;'
+                     'Server=' #local db# 
+                     ;'
                      'Database=Bakery;'
                      'Trusted_Connection=True;'
                      )
