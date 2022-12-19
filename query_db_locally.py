@@ -7,7 +7,7 @@ from sqlalchemy.orm.session import Session
 from sqlmodel import select, SQLModel, Field
 
 CONNECTION_STRING = ('Driver={SQL Server};'
-                     'Server=LONNB22396'
+                     'Server='#enter local db"
                      'Database=Bakery;'
                      'Trusted_Connection=True;'
                      )
